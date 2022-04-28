@@ -1,0 +1,22 @@
+.activity img {
+    width: 180px;
+}
+
+.activity {
+    position: relative;
+}
+
+.activity .name {
+    position: absolute;
+    top: 81.4%;
+    background: #c87746;
+    width: 180px;
+    border-radius: 0px 0px 6px 6px;
+    padding: 4px 0px;
+}
+
+.activity .name p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

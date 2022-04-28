@@ -1,0 +1,54 @@
+.activities{
+    margin-top:55px;
+}
+.activities h4{
+    text-align: center;
+}
+
+/* .activities input{
+    display: block;
+    margin: 40px auto;
+    width: 450px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 9px;
+} */
+
+.search-field{
+    width: 500px;
+    margin:  20px auto;
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 35px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-field input{
+    height: 33px;
+    border: none;
+    outline: none;
+    padding-left: 9px;
+    width: 450px;
+}
+
+.search-icon{
+    font-size: 25px;
+    color: rgb(51, 47, 47);
+}
+
+.activities-header{
+    /* background-color: red; */
+    margin-bottom: 45px ;
+}
+
+.some-activities{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   gap: 29px;
+}
