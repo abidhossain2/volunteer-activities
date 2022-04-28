@@ -1,0 +1,68 @@
+.back {
+    font-size: 27px;
+    margin-left: 106px;
+    margin-top: 41px;
+    cursor: pointer;
+}
+
+.login-container {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.login-box {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+
+.login-container img {
+    width: 180px;
+    display: block;
+    margin: 28px auto;
+}
+
+.login-header {
+    width: 320px;
+    margin: 30px;
+    text-align: center;
+}
+.login-header h5{
+    font-weight: bold;
+}
+.google-login {
+    width: 320px;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.exist-login {
+    width: 320px;
+    margin: 30px;
+    text-align: center;
+}
+
+.signin {
+    width: 360px;
+    position: absolute;
+    left: 14%;
+    top: 22%;
+}
+
+.google-icon{
+    font-size: 22px;
+}
+
+.exist-login .signup{
+    text-decoration: none;
+}

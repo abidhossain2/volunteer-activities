@@ -17,8 +17,8 @@ const Header = () => {
                             <CustomLink className="link" to='donation'>Donation</CustomLink>
                             <CustomLink className="link" to='event'>Event</CustomLink>
                             <CustomLink className="link" to='blog'>Blog</CustomLink>
-                            <button className='register-btn'><Link to='register' className='register'>Register</Link></button>
-                            <button className='admin'>Admin</button>
+                            <button className='register-btn'><Link to='register' className='signup-link'>Register</Link></button>
+                            <button className='admin'><Link to='login' className='login'>Login</Link></button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
